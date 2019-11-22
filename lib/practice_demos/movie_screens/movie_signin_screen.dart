@@ -105,7 +105,7 @@ class _MovieSigninScreenState extends State<MovieSigninScreen> {
 class LogoWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Image(image: AssetImage('assets/images/movie_icon.png'));
+    return Image(image: AssetImage('assets/images/movies/movie_icon.png'));
   }
 }
 
@@ -231,14 +231,14 @@ class _SigninFormWidgetState extends State<SigninFormWidget> {
                 onPressed: null,
                 padding: EdgeInsets.all(0.0),
                 child: Image(
-                  image: AssetImage('assets/images/google_button.png'),
+                  image: AssetImage('assets/images/movies/google_button.png'),
                 ),
               ),
               FlatButton(
                 onPressed: null,
                 padding: EdgeInsets.all(0.0),
                 child: Image(
-                  image: AssetImage('assets/images/facebook_button.png'),
+                  image: AssetImage('assets/images/movies/facebook_button.png'),
                 ),
               ),
             ],
